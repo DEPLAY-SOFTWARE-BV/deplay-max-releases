@@ -103,9 +103,10 @@ bump, not a rewrite.
 ## Your agreement, and this repository
 
 Your studio's integration agreement with DEPLAY — the Dutch document *DEPLAY MAX: Technische integratie voor
-partner-apps*, which DEPLAY sends you — is what binds; these documents are the engineering detail underneath it. Where the two disagree, the agreement wins, and
-the release `README.md` flags the places where it goes further than the agreement does. **DEPLAY sends you that
-agreement directly and it is not published here**, so that there is one copy and it is the signed one. If you do
+partner-apps*, with a version number, which DEPLAY sends you — is the document your integration is judged against;
+these documents are the engineering detail underneath it. Where the two disagree, that document wins, and the
+release `README.md` flags the places where it goes further. **DEPLAY sends it to you directly and it is not
+published here**, so that there is one copy of it and it is theirs. If you do
 not have it, or are unsure which version you hold, ask DEPLAY before you build against anything below.
 
 Anything unclear, missing or contradictory: tell your contact at DEPLAY rather than guessing. A wrong guess here
