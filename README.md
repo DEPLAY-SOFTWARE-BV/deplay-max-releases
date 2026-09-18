@@ -69,7 +69,13 @@ DEPLAY needs from you:
 4. **Verify our signature.** Check the package name and the certificate fingerprint. The SDK does it for you.
 5. **No price, no subscribe button, no payment link anywhere in your app.** When the answer is no and the family
    has no access through you, send them to DEPLAY MAX with the intent `nl.deplay.max.OPEN`; it shows the right
-   screen. Exceptions exist only where DEPLAY has agreed one with you in writing.
+   screen. Show that redirect **only when DEPLAY MAX is actually installed** — `DeplayMax.isInstalled(context)`,
+   or `IsInstalled` in Unity — because nothing answers the intent otherwise and the button does nothing at all.
+   Exceptions exist only where DEPLAY has agreed one with you in writing.
+
+On a device without DEPLAY MAX you get `NOT_INSTALLED`, which is not an error to show and not a "no" to argue
+with: your own access decides, exactly as if this integration did not exist, and you show nothing about DEPLAY
+MAX. A family who has never heard of it should not meet it in your app.
 
 Rules 1, 2 and 5 are the ones that break real families when they are wrong: the first two lock out paying parents,
 the last one is what app store review will reject you for.
