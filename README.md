@@ -95,10 +95,14 @@ accepts it after you turn that on explicitly — `DeplayMax.setAllowDebugSignatu
 
 ## What is ready today
 
-The current release is a **sandbox prerelease**. The SDK in it trusts only the sandbox build of DEPLAY MAX, so it
-is exactly right for building and testing your integration, and must not ship in a Play Store release of your app.
-The production SDK follows once the DEPLAY MAX app is published; it is the same API, and the switch is a version
-bump, not a rewrite.
+`sdk/v0.1.0` is the first **stable** release: build against it. It already trusts the three Play signing
+certificates of the real DEPLAY MAX, so the same AAR verifies the published app the day it arrives — there is no
+second SDK, and nothing for you to swap later.
+
+What is not ready is DEPLAY MAX itself: it is not on Google Play yet, so the only build you can install today is
+the sandbox one in this release. That build is debug-signed, which the SDK accepts only when your own debug
+variant switches it on with `DeplayMax.setAllowDebugSignature(true)`. **A build you ship must never have that
+switch enabled** — with it on, your release would trust a test key.
 
 ## Your agreement, and this repository
 
