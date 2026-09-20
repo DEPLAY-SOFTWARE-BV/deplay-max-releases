@@ -1,8 +1,24 @@
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="brand/deplay-max-lockup-geel-op-navy.svg">
+  <img alt="DEPLAY MAX" src="brand/deplay-max-lockup-navy-op-geel.svg" width="300">
+</picture>
+
 # DEPLAY MAX — releases for partner studios
 
-DEPLAY MAX is one subscription a parent buys, which unlocks the apps of several studios on the family's tablet.
-Your app asks DEPLAY MAX one question — *does this family's subscription unlock me?* — and unlocks if the answer is
-yes. This repository is where you download everything you need to ask it.
+**[DEPLAY](https://deplay.nl)** is a Dutch children's brand, best known for its kids' tablet and smartwatch.
+**[DEPLAY MAX](https://deplaymax.com)** is the subscription DEPLAY sells to parents: one payment a month, and the
+family gets the apps of several studios — yours among them — instead of buying each one separately.
+
+Your side of it is one question, asked while your app runs: *does this family's subscription unlock me?* Yes, and
+you unlock. No, or no answer at all, and your own access decides. You never see the payment, the plan or the
+parent's account; DEPLAY MAX handles all of that and answers you yes or no, nothing else.
+
+Your app still ships to the ordinary stores and runs wherever people install it. On a device without DEPLAY MAX the
+question answers "not installed" in milliseconds and costs you nothing, so there is one build, not two.
+
+**This repository is how you get what you need to ask that question:** an Android library, a build of DEPLAY MAX to
+test against, working example projects for each way of asking, and one README that explains all of it. It is
+private, and DEPLAY invites your studio by GitHub username.
 
 Everything ships as a **release**. Take the newest one: [**Releases →**](https://github.com/DEPLAY-SOFTWARE-BV/deplay-max-releases/releases).
 
@@ -135,3 +151,11 @@ key**. Neither is self-service.
 
 Anything unclear, missing or contradictory: ask rather than guess. A wrong guess here
 shows up as a family that cannot open your app.
+
+---
+
+<img src="brand/game-tailors.svg" alt="Game Tailors" width="150">
+
+DEPLAY MAX is built for [DEPLAY](https://deplay.nl) by [Game Tailors](https://gametailors.com), a Dutch
+serious-games studio, and handed over to DEPLAY to run. The library, the reference clients and this page are ours;
+the subscription, your agreement and your test accounts are DEPLAY's. Ask DEPLAY either way — they reach us.
