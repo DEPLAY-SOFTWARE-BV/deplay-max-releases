@@ -33,7 +33,8 @@ Everything ships as a **release**. Take the newest one: [**Releases →**](https
 | A backend that verifies a signed token your app received | `deplay-max-examples-<version>.tar.gz` → `route3-verify-node` | *Route 3: a token for your own server* and *Verifying a route 3 token* |
 | Trying it out before you write code | `deplay-max-<version>-sandbox-debug.apk` | *Download*, and the sandbox notes in the release description |
 
-Unsure which route is yours? One line each:
+Unsure which route is yours? One line each — and where this page says *we* or *our*, that is DEPLAY MAX's side
+of the line: the app on the device and the backend behind it.
 
 1. **On the device.** Your app binds to DEPLAY MAX and gets yes or no. Works offline, you need no backend.
 2. **Server to server.** Your backend asks ours about a parent's e-mail address. For studios that already hold it.
@@ -157,5 +158,6 @@ shows up as a family that cannot open your app.
 <img src="brand/game-tailors.svg" alt="Game Tailors" width="150">
 
 DEPLAY MAX is built for [DEPLAY](https://deplay.nl) by [Game Tailors](https://gametailors.com), a Dutch
-serious-games studio, and handed over to DEPLAY to run. The library, the reference clients and this page are ours;
-the subscription, your agreement and your test accounts are DEPLAY's. Ask DEPLAY either way — they reach us.
+serious-games studio, and handed over to DEPLAY to run. Game Tailors wrote the library, the reference clients and
+this page; your agreement, your test accounts and your keys come from DEPLAY. Ask DEPLAY either way: they bring
+Game Tailors in when the answer is in the code.
