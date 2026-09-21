@@ -120,9 +120,10 @@ accepts it after you turn that on explicitly — `DeplayMax.setAllowDebugSignatu
 
 ## What is ready today
 
-`sdk/v0.1.1` is the current release: build against it. It already trusts the three Play signing
-certificates of the real DEPLAY MAX, so the same AAR verifies the published app the day it arrives — there is no
-second SDK, and nothing for you to swap later.
+**Build against the newest release** — the *Releases* link above always points at it, and each one says in its
+notes what changed. Every release already trusts the three Play signing certificates of the real DEPLAY MAX, so
+the same AAR verifies the published app the day it arrives: there is no second SDK, and nothing for you to swap
+later.
 
 What is not ready is DEPLAY MAX itself: it is not on Google Play yet, so the only build you can install today is
 the sandbox one in this release. That build is debug-signed, which the SDK accepts only when your own debug
