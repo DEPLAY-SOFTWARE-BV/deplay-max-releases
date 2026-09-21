@@ -124,12 +124,6 @@ accepts it after you turn that on explicitly — `DeplayMax.setAllowDebugSignatu
 certificates of the real DEPLAY MAX, so the same AAR verifies the published app the day it arrives — there is no
 second SDK, and nothing for you to swap later.
 
-**If you already took `sdk/v0.1.0`, update.** Nothing inside the AAR changed — same API, same binder calls, same
-fingerprints, same minimum DEPLAY MAX version — but two pieces of reference code around it were wrong in ways you
-would inherit by copying them. The route 3 verifier accepted a token seven days old where your agreement promises
-sixteen hours, and the route 2 client now keeps an answer only as long as that response's `Cache-Control` allows,
-which is what lets you check on every foreground without meeting the rate limit.
-
 What is not ready is DEPLAY MAX itself: it is not on Google Play yet, so the only build you can install today is
 the sandbox one in this release. That build is debug-signed, which the SDK accepts only when your own debug
 variant switches it on with `DeplayMax.setAllowDebugSignature(true)`. **A build you ship must never have that
