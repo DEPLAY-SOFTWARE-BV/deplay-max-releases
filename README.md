@@ -42,7 +42,7 @@ of the line: the app on the device and the backend behind it.
 
 Route 1 is the common case. Nothing stops you combining them.
 
-## Every release holds the same six files
+## Every release holds the same seven files
 
 | File | What it is |
 | --- | --- |
@@ -50,8 +50,9 @@ Route 1 is the common case. Nothing stops you combining them.
 | `README.md` | one document: the quick start, the full integration guide and the binder contract |
 | `deplay-max-unity-<version>.tgz` | the Unity package, installed through Unity's package manager |
 | `deplay-max-examples-<version>.tar.gz` | working reference clients for all three routes: Unity, Kotlin and Flutter on the tablet, a route 2 server and a Node token verifier |
+| `deplay-max-contract-<version>.zip` | the machine-readable contract: `partner-api.json` (the OpenAPI description of the route 2 endpoint), the two response schemas the README names, the binder interface and the payload fixtures to test your parser against |
 | `deplay-max-<version>-sandbox-debug.apk` | DEPLAY MAX itself, built for the sandbox, to install on a test tablet |
-| `SHA256SUMS` | checksums of the five files above |
+| `SHA256SUMS` | checksums of the six files above |
 
 Check what you downloaded before you use it:
 
