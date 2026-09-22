@@ -17,8 +17,8 @@ Your app still ships to the ordinary stores and runs wherever people install it.
 question answers "not installed" in milliseconds and costs you nothing, so there is one build, not two.
 
 **This repository is how you get what you need to ask that question:** an Android library, a build of DEPLAY MAX to
-test against, working example projects for each way of asking, and one README that explains all of it. It is
-private, and DEPLAY invites your studio by GitHub username.
+test against, working example projects for each way of asking, and one README that explains all of it. Take the
+newest release: no account, no invitation, nothing to ask for first.
 
 Everything ships as a **release**. Take the newest one: [**Releases →**](https://github.com/DEPLAY-SOFTWARE-BV/deplay-max-releases/releases).
 
@@ -71,7 +71,6 @@ DEPLAY gives you, per environment (sandbox first, production when you go live):
 DEPLAY needs from you:
 
 - the **package name of every app** that should be unlocked, exactly as it appears in the Play Store;
-- a **GitHub account name** per developer who needs these downloads, because this repository is private;
 - for route 2 or 3, the **server** that will call us, so the key is issued to the right studio.
 
 ## Five rules that decide whether your integration is correct
@@ -140,10 +139,9 @@ published here**, so that there is one copy of it and it is theirs. If you do
 not have it, or are unsure which version you hold, ask DEPLAY before you build against anything below.
 
 **Who to ask.** Anything unclear, missing or contradictory goes to **support@deplay.nl**, or to your contact at
-DEPLAY if you have one. Two things that need no explanation when you ask for them: a developer who cannot open this
-repository needs their **GitHub account name** added, which is true again for every person who joins your team
-later, and a studio that cannot get an `entitled` answer yet needs a **test account and, for routes 2 and 3, an API
-key**. Neither is self-service.
+DEPLAY if you have one. One thing needs no explanation when you ask for it: a studio that cannot get an `entitled`
+answer yet needs a **test account and, for routes 2 and 3, an API key**. That is not self-service; the downloads
+are.
 
 Anything unclear, missing or contradictory: ask rather than guess. A wrong guess here
 shows up as a family that cannot open your app.
