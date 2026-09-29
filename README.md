@@ -32,6 +32,7 @@ Everything ships as a **release**. Take the newest one: [**Releases →**](https
 | A backend that asks about a parent by e-mail address | `deplay-max-examples-<version>.tar.gz` → `route2-server` | that client's own README: it is the request, the answer, the error slugs and the cache in one place |
 | A backend that verifies a signed token your app received | `deplay-max-examples-<version>.tar.gz` → `route3-verify-node` | *Route 3: a token for your own server* and *Verifying a route 3 token* |
 | Trying it out before you write code | `deplay-max-<version>-sandbox-debug.apk` | *Download*, and the sandbox notes in the release description |
+| The screen a family sees when they are locked | `deplay-max-ux-kit-<version>.zip` | the kit's own `README.md`: the state table and the Dutch strings are what your screen implements |
 
 Unsure which route is yours? One line each — and where this page says *we* or *our*, that is DEPLAY MAX's side
 of the line: the app on the device and the backend behind it.
@@ -42,7 +43,7 @@ of the line: the app on the device and the backend behind it.
 
 Route 1 is the common case. Nothing stops you combining them.
 
-## Every release holds the same seven files
+## Every release holds the same eight files
 
 | File | What it is |
 | --- | --- |
@@ -51,8 +52,9 @@ Route 1 is the common case. Nothing stops you combining them.
 | `deplay-max-unity-<version>.tgz` | the Unity package, installed through Unity's package manager |
 | `deplay-max-examples-<version>.tar.gz` | working reference clients for all three routes: Unity, Kotlin and Flutter on the tablet, a route 2 server and a Node token verifier |
 | `deplay-max-contract-<version>.zip` | the machine-readable contract: `partner-api.json` (the OpenAPI description of the route 2 endpoint), the two response schemas the README names, the binder interface and the payload fixtures to test your parser against |
+| `deplay-max-ux-kit-<version>.zip` | the UX kit: the lock states, the three cards, the fixed Dutch strings and the logo files your designer builds from |
 | `deplay-max-<version>-sandbox-debug.apk` | DEPLAY MAX itself, built for the sandbox, to install on a test tablet |
-| `SHA256SUMS` | checksums of the six files above |
+| `SHA256SUMS` | checksums of the seven files above |
 
 Check what you downloaded before you use it:
 
